@@ -4,11 +4,11 @@ public class MultilevelInherit {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- Z1 objz =new Z1();
- objz.display();
- objz.show();
- objz.print();
- objz.print1();		
+   Z obj1 = new Z();
+   obj1.display();
+   obj1.show();
+   obj1.print();
+   		
  
 	
 	}
@@ -41,11 +41,6 @@ class Z extends Y{
 		System.out.println("Sum of class X ,Y & Z = " +sum);
 		
 	}
-  class Z1 extends Z{
-	  int d=71;
-	  void print1(){
-		  int sum1 = a+b+c+d;
-		  System.out.println("Sum of class X ,Y ,Z & Z1 = " +sum1);
-		  
-
+  
 }
+  
