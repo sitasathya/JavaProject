@@ -13,6 +13,9 @@ public class HierarInherit {
 		D d = new D();
 		d.display();
 		d.mod();
+		E e = new E();
+		e.display();
+		e.mod1();
 	}
 
 }
@@ -58,4 +61,15 @@ class D extends A{
 		
 	}
 	
+}
+class E extends A{
+	
+	int e=9;
+	
+	void mod1() {
+		int rem1=a %e;
+		
+		System.out.println(" Reminder of of Class A % Class E " +rem1);
+		
+	}
 }
