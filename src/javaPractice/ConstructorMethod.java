@@ -49,6 +49,9 @@ public class ConstructorMethod {
 		s4.display();
 		ConstructorMethod s5= new ConstructorMethod("Michael  ", 1005,"  Math    ", 95);
 		s5.display();
+		ConstructorMethod s6= new ConstructorMethod("Rachel  ", 1006,"  Math    ", 99);
+		s6.display();
+		//added new student to check with git hub
 	}
 
 }
